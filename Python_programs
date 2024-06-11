@@ -1,0 +1,355 @@
+# Base Conversions
+#binary
+a=10
+print(bin(a))
+#hexa
+b=20
+print(hex(b))
+#octa
+c=30
+print(oct(c))
+
+#complex data types
+
+a=10+1.5j
+b=20+2.0J
+c=a+b
+print(c)
+
+#boolean data types
+
+a=10
+b=20
+c=a>b
+print(c)
+c=a<b
+print(c)
+
+
+
+#Strings slicing
+s=['p','y','t','h','o','n']
+print(s[0])
+print(s[0:])
+
+# negative indexing
+
+print(s[:-1])
+print(s[-3])
+
+
+
+
+# type casting
+
+a=10
+print(int(a))
+print(float(a))
+print(str(a))
+print(bool(a))
+print(complex(a))
+
+
+
+
+
+# bytes data type
+#--> cant add a value
+x=[1,2,3,4,5]
+b=bytes(x)
+print(b)
+type(b)
+
+#bytes array data type
+#--> here we can
+
+y=[10,20,30,40,50]
+b=bytearray(y)
+for i in b:
+    b[0]=100
+    print(i)
+for i in b:
+    b[0]=100
+    print(i)
+
+type(b)
+
+
+# list data type
+
+List=["porsche","ferrari","lamborgini"]
+print(List[0:])
+print(List[1:2])
+
+# list condition
+
+if 'porsche' in List:
+    print(True)
+else:
+    print(False)
+    
+type(List)
+
+
+
+#tuple datatype
+
+a=(1,2,3,4,5)
+print(a)
+type(a)
+
+for x in a:
+    if x<=5:
+        print(True)
+        break
+    else:
+        print(False)
+
+
+#range data types
+
+for x in range(0,10):
+    print(x)
+    
+print(type(x))
+
+
+for x in range(0,10,2):
+    print(x)
+
+
+
+#sets
+Set={"Sri ram",'10000BC',28,45.8}
+print(Set)
+Set.add(20)
+print(Set)
+Set.remove(20)
+print(Set)
+
+
+for x in Set:
+    if 28 in Set:
+        print(True)
+    else:
+        print(False)
+
+
+
+# frozen set
+s={1,2,3,4,5}
+fs=frozenset(s)
+print(fs)
+
+for x in fs:
+    print(x)
+
+
+# dictionary
+
+cars_dict={"Brand":"porcshe","Model":"911 GT3RS","color":"Weissach","options":"Weissach package","Price":"300k$"}
+print(cars_dict.values())
+print(cars_dict.keys())
+
+
+# Arithmetic operators
+
+a=10
+b=20
+c=a+b
+print(c)
+
+
+# relational operator
+
+print("a is greater than b",a>b)
+print("a is less than b",a<b)
+print("a is equal to b",a==b)
+print("a is not equal to b",a!=b)
+print("a is greater than equal b",a>=b)
+
+#finding max number
+
+a=int(input("enter the first num"))
+b=int(input("enter the second num"))
+c=int(input("enter the third num"))
+
+max=a if a>b and a>c else b if b>c else c
+
+print(max)
+
+
+#identity operators
+
+a=1
+b=2
+print(a is b, + True)
+print(a is not b, + False)
+
+#membership operators
+
+name=['p','y','t','h','0','n']
+
+print("h" in name,"correct")
+
+# math functions
+
+import math as m
+
+print(m.sqrt(16))
+print(m.pi)
+
+print(m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
