@@ -10,4 +10,30 @@ for x in string:
     
     
     
+# printing the square pattern
+
+for i in range(1,6):
+    for j in range(1,6):
+        print(j,end=" ")
+    print(' ',end="\n")
     
+
+n=int(input('enter a number'))
+
+for i in range(n+1):
+    print('*'*i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
