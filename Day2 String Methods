@@ -52,6 +52,158 @@ else:
     print('not same')
 
 
+-------------#FROM AFTERNOON-----------------
+
+#finding the substrings
+
+sub_str='python is a very user friendly programming language'
+print(sub_str.find("l"))
+
+
+sub_str='python is a very user friendly programming language'
+print(sub_str.index("l"))
+
+
+#counting the substring in a given string
+
+
+strng='aaavvbbshshyhdhdhssnd'
+print(strng.count('h'))
+
+
+#replacing the string value
+
+movie='inception is very easy to understand'
+m1=movie.replace("easy","hard")
+print(m1)
+print(movie)
+
+# splitting the strings
+
+company='golman sachs'
+c1=company.split()
+
+for x in c1:
+    print(x)
+
+ # using the join operator      
+c1='-'.join("company")
+print(c1)
+
+name='Apple'
+print(name.lower())
+print(name.upper())
+print(name.swapcase())
+print(name.title())
+print(name.capitalize())
+
+
+# using starts with keywoard
+print(name.startswith("Apple"))
+print(name.startswith("apple"))
+
+#checking the type of characters present in the string
+a=input("enter a number")
+print(a.isalnum())
+print(a.isalpha())
+print(a.islower())
+print(a.isupper())    
+
+
+
+# formatting the strings
+
+name='john'
+company='atlassian'
+salary='200k$'
+
+print("{} he is working in {} and his salary was {}".format(name,company,salary))
+
+
+# ways to reverse a string
+
+a='yesh'
+print(a[::-1])
+
+for x in a[::-1]:
+    print(x,end="")
+
+#reversing the string words
+
+rev_string='Python is easy'
+
+l1=rev_string.split()
+for x in l1:
+    print(x[::-1])
+
+string='yeshwanth'
+for x in string:
+    if string.index('t')!=0:
+        print(x,end='')
+    else:
+        print(string.index())
+
+
+# strings present at even index
+print(string[0::2])
+# strings present at ODD index
+print(string[1::2])
+
+# using lambda function to join strings
+
+x=lambda x,y:x+y
+print(x("yesh","wanth"))
+
+
+# removing duplicates from the string
+
+s1='aaaaaaaaabbbbbbabbbbbabbbbbcccccssssssaaaaaaa'
+s=set(s1)
+output=''.join(s)
+print(output)
+
+
+# checking the string whether it is anagram or not
+
+s1=input("enter a string")
+s2=input('enter a string')
+
+if sorted(s1)==sorted(s2):
+    print("anagrams")
+else:
+    print("not anagrams")
+
+
+# chcking whether the given string is palindrome or not
+
+Pal_str=input("enter the value")
+
+if Pal_str==Pal_str[::-1]:
+    print('palindrome',Pal_str)
+else:
+    print('not palindrome')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
