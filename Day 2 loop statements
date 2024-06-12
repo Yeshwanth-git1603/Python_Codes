@@ -1,0 +1,13 @@
+# iterative statements
+
+# taking a string as input and printing its index
+
+string='Python'
+i=0
+for x in string:
+    print("the index of the string is",i,"string is",x)
+    i=i+1
+    
+    
+    
+    
