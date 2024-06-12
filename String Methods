@@ -1,0 +1,62 @@
+# String Methods
+#indexing
+#slicing
+
+String='Devops'
+print(String[0])
+print(String[1:])
+print(String[-1])
+
+
+for x in String:
+    for y in String:
+        print(x,end=" ")
+    print(' ',end="\n")
+
+
+
+
+new='kubernetes'
+i=0
+for x in new:
+    print("the string index is",i,x)
+    i=i+1
+
+#forward and backward of string
+strng='python'
+for x in strng:
+    print("forward direction",x[::])
+for y in strng[::-1]:
+    print("backwarad dection",y)
+
+
+# comparing the strings
+
+string1=['python']
+string2=['fortan']
+
+if string1==string2:
+    print("equal")
+else:
+    print("not equal")
+    
+    
+#dynamic way
+
+string1=input("enter a string")
+string2=input("enter the second string")
+
+if string1==string2:
+    print('same')
+else:
+    print('not same')
+
+
+
+
+
+
+
+
+
+
