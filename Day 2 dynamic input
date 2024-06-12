@@ -1,0 +1,10 @@
+#taking a single digit number from keyboard and printing it
+
+n=int(input("enter the number"))
+if n in range(1,10):
+    print("found",n)
+else:
+    print("not found")
+
+
+    
