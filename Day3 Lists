@@ -1,0 +1,207 @@
+# printing the sum of n numbers
+
+n=int(input("enter a number"))
+sum=0
+for x in range(n):
+    sum=sum+x
+    print(sum)
+
+List=[]
+for x in range(101):
+    if x%10==0:
+        List.append(x)
+        print(x,List)
+# adding nums to list which are divisible by 12        
+List=[]
+for x in range(101):
+    if x%12==0:
+        List.append(x)
+        print(x,List)
+        break
+
+
+# using the list insert function
+
+lap_list=["lenovo","mac","rog","alienware",'razer']
+lap_list.insert(3,"tuf")
+print(lap_list)
+
+# using the extend function
+
+food=["biryani","tandoori","Fried chicken"]
+cakes=["pasteries","normal","eggless","step cake","icream cake"]
+food.extend(cakes)
+print(food)
+
+print(food + cakes)
+
+
+# remove function
+
+bikes=["mv agusta","ducati","triumph","R1","hayabusa","aprillia rsv4","cbr 1000rr-r"]
+bikes.remove('R1')
+
+# using the pop function()
+
+bikes.pop(2)
+bikes.pop(4)
+bikes.pop(1)
+bikes.pop(2)
+print(bikes)
+
+
+nums=[1,2,3,4,5,6,7,8,9,10]
+print(nums[::-1])
+nums.reverse()
+print(nums)
+
+
+# using the sort function
+val=[4,3,5,6,3,1,456,7,8,5]
+val.sort()
+print(val)
+
+comp=[1,2,3,4,5,67,55,4444,0.3,3,3,4,5555]
+comp.sort()
+print(comp)
+
+
+
+x=[1,2,3,4,5]
+y=[6,7,8,9,10]
+y=x
+print(y)
+y=x.copy()
+print(x)
+
+# using mathematical operator
+
+z=x+y
+print(z)
+
+
+# using the slice operator
+
+
+print(z)
+
+print(z[::-1])
+print(z[1:6])
+ 
+    
+    
+# comparing the list elements
+
+animals=['dog','cat','sheep','elephant','turtle']
+aqua_animals=['fish',"shark",'stringray','seahorse']
+
+if animals==aqua_animals:
+    print("same")
+else:
+    print("not same")
+
+
+
+# nested lists
+
+num=[[1,2,3],[4,5,6],[7,8,9]]
+print(num)
+for x in num:
+    for y in num:
+        print(y,end=" ")
+        print(" ",end="\n")
+
+
+
+# list comprehensions
+
+s=[[x for x in range(0,10)],[y for y in range(1,10)]]
+sum=[]
+for z in s:
+    sum=sum+z
+    print(sum)
+
+    
+zeo=['elephant','giraffe','hippopotamus','crocodile']
+
+res=[z[1] for z in zeo]
+print(res)
+
+result=[x[3] for x in zeo]
+print(result)
+
+
+# finding the vowels in the list
+vowels=["a","e","i","o","u"]
+find=input("enter the vowels present in the list")
+for f in find:
+    if f in vowels:
+        print(f,"found the vowel")
+    else:
+        print('no vowels')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
