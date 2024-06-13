@@ -1,0 +1,40 @@
+# dictionary in python
+
+Dict={"name":"Porsche","model":"911 gt3rs","topspeed":"350kmph","price":"350k$"}
+print(Dict)
+for d in Dict:
+    print(d)
+    
+    
+print(Dict.keys())
+print(Dict.values())
+
+# accessing data from dictionary
+
+print(Dict)
+print(Dict["name"])
+print(Dict["model"])
+Dict["price"]
+Dict["topspeed"]
+
+
+
+# update the values of dictionary
+Dict["topspeed"]='340kmph'
+print(Dict)
+
+# deleting the elements from the dictionary
+
+print(Dict)
+del Dict["topspeed"]
+print(Dict)
+
+# clearing the elemnts in the dict by using clear word
+
+print(Dict.clear())
+print(Dict)
+
+
+
+
+
