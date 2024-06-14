@@ -1,1 +1,1 @@
-Python basic to advancd codes
+Python basic to advanced codes
