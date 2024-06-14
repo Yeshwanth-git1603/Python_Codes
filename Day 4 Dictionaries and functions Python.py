@@ -160,6 +160,158 @@ fact()
 
 
 # In[ ]:
+# defining a function
+
+def function(a,b):
+    c=a+b
+    print(c)
+
+function=(1,2)
+
+# defining a function
+
+def function(a,b):
+    c=a+b
+    print(c)
+
+function=(1,2)
+
+# positional arguments
+def cars(name,brand):
+    print(name,brand)
+    
+cars("porsche","gt3rs")
+
+# keyword arguments
+
+def animals(name,origin):
+    print(name,origin)
+    
+animals(name="fish",origin="ocean")
+animals(name="yeti",origin="himalayas")
+
+# default arguumensts
+
+def human(name="yeshwanth"):
+    print("hello",name)
+    
+human(name="sourab")
+human()
+
+# variable length arguments
+
+def sum(*n):
+    total=0
+    for x in n:
+        total=total+x
+        print(total)
+        
+mul(10,20)
+mul()
+
+
+# types of variables
+
+# global variable
+# local variable
+
+
+# global variable -> variables which are declared outside of the function 
+
+a=10
+b=20
+
+def var():
+    c=a+b
+    print(c)
+    
+var()
+
+
+n=int(input('enter the number'))
+m=int(input('enter the number'))
+def func():
+    res=n+m
+    print(res)
+    
+func()
+
+
+# local variable
+# variables which are asigned inside the function
+
+def val():
+    var1=input('enter the value')
+    var2=input('enter the value')
+    
+    result=var1+var2
+    print(result)
+    
+    
+val()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
