@@ -1,0 +1,71 @@
+# creating a tuple
+
+t1=("animals","birds","humans")
+print(type(t1))
+len(t1)
+
+# changing the list to tuple
+
+l1=['mercury','venus','mars','earth','saturn','jupiter','neptune','pluto']
+t2=tuple(l1)
+print(t2)
+type(t2)
+
+# accessing the elements in the tuple
+
+tup=(1,2,3,4,5)
+
+print(tup[1])
+tup.index(2)
+
+
+# adding the elements in tuple
+
+tuple1=(1,2,3,4,5)
+sum=0
+for t in tuple1:
+    sum=sum+t
+    print(sum)
+    
+tup2=(4,3,2,45,3,2,4,5)
+rs=sorted(tup2)
+
+print(rs)
+print(tup2)
+
+
+# min and max functions of tuple
+
+val=(1,2,3,4,5)
+print(min(val))
+
+#comparing the tuples
+tuple1=(1,2,4,5)
+tuple2=(6,7,5,4)
+if tuple1==tuple2:
+    print('true')
+else:
+    print('false')
+
+#tuple comprehension
+
+t1=(x**2 for x in range(1,10))
+print(type(t1))
+t2=(x for x in range(1,11))
+print(t2)
+
+
+# removing the duplicates
+
+s=[22,33,22,3,22,11,1,11]
+res=set(s)
+print(res)
+sort1=sorted(res)
+print(sort1)
+print(set(sort1))
+
+# mathematical operations on sets
+# union
+s1={1,2,3,4,5}
+s2={2,3,5,6,7}
+print(s1.union(s2))

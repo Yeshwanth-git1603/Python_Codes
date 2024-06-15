@@ -1,0 +1,36 @@
+# iterative statements
+
+# taking a string as input and printing its index
+
+string='Python'
+i=0
+for x in string:
+    print("the index of the string is",i,"string is",x)
+    i=i+1
+    
+    
+    
+# printing the square pattern
+
+for i in range(1,6):
+    for j in range(1,6):
+        print(j,end=" ")
+    print(' ',end="\n")
+    
+
+n=int(input('enter a number'))
+
+for i in range(n+1):
+    print('*'*i)
+
+
+#taking a single digit number from keyboard and printing it
+
+n=int(input("enter the number"))
+if n in range(1,10):
+    print("found",n)
+else:
+    print("not found")
+
+
+    
