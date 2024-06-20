@@ -1,0 +1,63 @@
+# renaming a module at the time of import
+
+
+import math
+
+print(math.pow(2,3))
+print(math.pi)
+
+from math import pi
+
+r=10
+formula=pi*r**2
+print(formula)
+
+# member aliasing
+
+from math import pi as p
+
+
+
+r=10
+formula=p*r**2
+print(formula)
+
+import math
+print(id(math))
+
+
+
+import math
+
+print(dir(math))
+
+import numpy
+
+print(dir(numpy))
+
+import pandas
+
+print(dir(pandas))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

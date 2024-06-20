@@ -1,0 +1,77 @@
+
+# defining a function
+
+def function(a,b):
+    c=a+b
+    print(c)
+
+function=(1,2)
+
+
+# positional arguments
+def cars(name,brand):
+    print(name,brand)
+    
+cars("porsche","gt3rs")
+
+
+
+# keyword arguments
+
+def animals(name,origin):
+    print(name,origin)
+    
+animals(name="fish",origin="ocean")
+animals(name="yeti",origin="himalayas")
+
+# default arguumensts
+
+def human(name="yeshwanth"):
+    print("hello",name)
+    
+human(name="sourab")
+human()
+
+
+# variable length arguments
+
+def sum(*n):
+    total=0
+    for x in n:
+        total=total+x
+        print(total)
+        
+mul(10,20)
+mul()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

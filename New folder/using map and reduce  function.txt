@@ -1,0 +1,44 @@
+#using map function
+
+l=[1,2,3,4,5]
+def doubleit(x):
+    return 2*x
+
+l1=map(doubleit,l)
+print(l1)
+
+
+num1=[1,2,3,4,5]
+num2=[4,5,6,7,8]
+res=map(lambda x,y:x+y,num1,num2)
+print(res)
+
+# reduce function
+
+
+from functools import *
+l=[10,20,30,40,50]
+res=reduce(lambda x,y:x+y,l)
+print(res)
+
+l1=[1,2,3,4,5]
+val=reduce(lambda x,y:x-y,l1)
+print(val)
+
+
+# using range
+
+l1=[1,2,3,4,5]
+val=reduce(lambda x,y:x+y,range(1,10))
+print(val)
+
+l=[1,2,3,4,5]
+res=reduce(lambda x,y:x+y,l)
+print(res)
+
+
+
+sum=0
+for x in range(1,6):
+    sum=sum+x
+    print(sum,end=" ")

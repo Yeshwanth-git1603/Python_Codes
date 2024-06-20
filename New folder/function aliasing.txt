@@ -1,0 +1,53 @@
+# function aliasing
+
+def cars(brand,name):
+    print('cars are',brand,name)
+    
+vehicle=cars
+vehicle('porsche','911gt3rs')
+cars('bmw','m4 gts')
+
+
+
+def laptop(brand,name,price):
+    list=[]
+    list.append(brand)
+    list.append(name)
+    list.append(price)
+    print(list)
+laptop("lenovo",'ideapad s340','56K')
+
+
+
+def laptop(brand,name,price):
+    list=[]
+    list.append(brand)
+    list.append(name)
+    list.append(price)
+    print(list)
+laptop("lenovo",'ideapad s340','56K')
+electronics=laptop
+electronics('dell','alienware','1lac')
+
+
+# nested fuctions
+
+def outer():
+    print('this is outer function')
+    def inner():
+        print('this is inner function')
+    print('function calling outer function')
+    inner()
+outer()
+
+
+
+
+
+
+
+
+
+
+
+

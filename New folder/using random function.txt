@@ -1,0 +1,71 @@
+# using random function
+
+import random
+
+otp=random.randrange(1000,1000000)
+
+print(otp)
+
+
+user=int(input("enter a number"))
+
+if user==otp:
+    print("allow access")
+else:
+    print('dont allow')
+    
+    
+
+import random as r
+
+number=r.randrange(10000,1000000)
+
+print(number)
+
+
+num=int(input("enter a number"))
+
+if num==number:
+    print(num)
+else:
+    print(number)
+
+
+# printing a random integer
+
+from random import *
+
+for r in range(1,10):
+    print(randint(1,100))
+    
+
+
+
+
+
+# printing the unifrom using random
+
+for x in range(1,10):
+    print(uniform(1,100))
+
+
+# choice function
+from random import *
+lst=['porsche','bmw','lamborgini','ferrai']
+for lst in range(1,5):
+    print(choice(l))
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
