@@ -1,0 +1,79 @@
+[200~for x in range(6):
+    print("* "*x)
+    
+    
+for y in range(5):
+    print("y "*y)
+    
+i=0
+while i<=5:
+    print(f"{i} "*i)
+    i+=1
+    
+i=0
+while i<=5:
+    print(f"* "*i)
+    i+=1
+    
+    
+    
+# polymorphism
+
+class dog:
+    def talk(self):
+        print('bow bow',end=" ")
+        
+class cat:
+    def talk(self):
+        print('meow meow',end=" ")
+        
+class duck:
+    def talk(self):
+        print("quack quack",end=" ")
+        
+def obj(func):
+    func.talk()
+    
+l1=[dog(),cat(),duck()]
+
+for obj in l1:
+    obj.talk()
+    
+n1=0
+n2=1
+n=int(input("enter a numner"))
+for x in range(n):
+    n3=n1+n2
+    print(n3)
+    n1=n2
+    n2=n3
+    
+
+
+def fib(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return fib(n-1)+fib(n-2)
+        
+n=int(input("enter n value"))
+for x in range(n):
+    res=fib(x)
+    print(res)
+    
+    
+def prime(x):
+    if x%2==0:
+        print("not prime")
+    else:
+        print("prime")
+        
+prime(11)
+    
+
+
+
+
+
